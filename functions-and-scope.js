@@ -61,6 +61,8 @@ function getCumLaudeAmountByArray(numbers){
 
 }
 
+// commentaar Helga: hier mag je de functie nog aanroepen, dan wordt hij ook actief. Zie ook uitwerkingen vanaf regel 56.
+
 
 
 // function cumLaude() {
@@ -121,12 +123,16 @@ const poo = reUsable(8, 9, 4, 6, 10);
 
 console.log(poo);
 
+// commentaar Helga: helemaal goed. Je kan ook de aanroep rechtstreeks in de console.log() zetten. Zie uitwerkingen regel 105, 106, 107
+
 
 /* 2c: Afronden op twee decimalen */
 // Zorg ervoor dat het gemiddelde cijfer dat wordt teruggegeven uit de functie netjes wordt afgerond op twee decimalen.
 // Tip: Google is your best friend!
 
 console.log(averageGrade2.toFixed(2));
+
+//  commentaar helga: helemaal top! ik had deze functie niet gezien...
 
 /* Bonusopdracht: hoogste cijfer */
 
