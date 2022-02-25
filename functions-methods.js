@@ -17,6 +17,10 @@ const outcome = getEmailDomain("rachellemurk@hotmail.nl");
 
 console.log(outcome)
 
+// HeCu22: hier komt true of false uit en geen domain. Verder kun je slice wel gebruiken. In uitwerkingen gebruiken ze substring.
+// HeCu22: ik heb sprit functie gebruikt.
+
+
 /* Opdracht  2 */
 // Schrijf een functie genaamd typeOfEmail, die een emailadres verwacht. De functie checkt of het emailadres een novi domein heeft (medewerker), een novi-education domein (student), of extern domein (zoals gmail of outlook)
 // ---- Verwachte uitkomsten:
@@ -37,6 +41,10 @@ function typeOfEmail(email) {
 const emailIncludes = typeOfEmail("rachelle.murk@novi-education.nl");
 
 console.log(emailIncludes)
+
+// HeCu22: je kan ook het switch statement gebruiken. je kan ook de domain functie uit vorige opdracht gebruiken.
+// HeCu22: staat ook in uitwerkingen.
+
 
 /* Opdracht  3 */
 // Schrijf een functie genaamd checkEmailValidity, die een emailadres verwacht en checkt of het emailadres valide is. De functie returned true of false, afhankelijk van de uitkomst.
@@ -63,6 +71,9 @@ function checkEmailValidity(email2) {
 const outcomeValid = checkEmailValidity("n.eeken@novi.nl");
 
 console.log(outcomeValid);
+
+// HeCu22: hiermee heb je nog niet afgevangen dat een emailadres dat een @ bevat, ook een , of een . op de laatste plaats.
+
 
 
 // (email2.includes(',') === false) &&
